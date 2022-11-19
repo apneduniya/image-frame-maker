@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Picture Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.11/cropper.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.11/cropper.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  	<img src="asset/background_img.jpg" id="background-img">
+  	<div id="container">
+  		<div id="heading">
+  			<span class="line"></span>
+  		</div>
+  		<main>
+  			<div id="submitImage">
+  			 <p>Choose From Device</p>
+  				<label for="uploadImage">Upload Image</label>
+  				<input type="file" accept="image/*" name="uploadImage" id="uploadImage" onchange="loadImage(event)">
+  		 </div>
+  			<div id="outputDiv">
+  				<img id="output">
+  				<img id="outputFrame">
+  			</div>
+  		</main>
+  	</div>
+  	<div id="uploadedBox">
+  	 <p>Uploaded Image</p>
+  	 <img id="cross" src="asset/cross.png" onclick="cross()">
+  	 <div id="uploadedDiv">
+  	  <img id="upload">
+  	  <img id="frame">
+  	 </div>
+  	 <div id="frameOption">
+  	  <img id="option_1" class="options" src="asset/original.png" onclick="optionFunc1()">
+  	  <img id="option_2" class="options" src="asset/user_image_frame_1.png" onclick="optionFunc2()">
+  	  <img id="option_3" class="options" onclick="optionFunc3()" src="asset/user_image_frame_2.png">
+     <img id="option_4" class="options" onclick="optionFunc4()" src="asset/user_image_frame_3.png">
+     <img id="option_5" class="options" onclick="optionFunc5()" src="asset/user_image_frame_4.png">
+  	 </div>
+  	 <button id="submit" onclick="upload()">Submit</button>
+  	</div>
+ 
+	<script src="script.js"></script>
+  </body>
+</html>
