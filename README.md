@@ -6,7 +6,7 @@
 
 <h3><strong>Note: The edited image has been done by only using CSS, so, there is no scope for downloading it. </strong></h3>
 
-<h3>However, You can take screenshot of it. In PC the shortcut for screenshot is <strong>(Windows Key + Shift + S)</strong></h3>
+<h3>However, You can take screenshot of it. In PC the shortcut for screenshot is <strong>(Windows Key 🪟 + Shift + S)</strong></h3>
 
 <p align="center">
   <img src="https://i.ibb.co/R2f6hLm/Screenshot-2023-03-24-144657.png" alt="Website Image">
