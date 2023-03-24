@@ -10,8 +10,8 @@
   <img src="https://i.ibb.co/R2f6hLm/Screenshot-2023-03-24-144657.png" alt="Website Image">
 </p>
 
-<li><h3>1. Click on <strong>Upload Image</strong> Button</h3></li>
-<li><h3>2. Choose Image</h3></li>
+<h3>1. Click on <strong>Upload Image</strong> Button</h3>
+<h3>2. Choose Image</h3>
 
 # 🖱️ Select your Required Frame
 
